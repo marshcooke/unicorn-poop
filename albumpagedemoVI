@@ -5,7 +5,11 @@
 <html>
 <body>
 <div>
-<img src="https://upload.wikimedia.org/wikipedia/en/e/ec/Sufjan_Stevens_-_Carrie_%26_Lowell.jpg:/>
+</br>
+<center><img src="https://upload.wikimedia.org/wikipedia/en/e/ec/Sufjan_Stevens_-_Carrie_%26_Lowell.jpg"
+          alt="Carrie and Lowell Album Art"
+          style="width: 100px;"/></center>
+</br>
 <center><h1>Carrie and Lowell</h1></center>
 <center><h2><a href="http://music.sufjan.com/">Sufjan Stevens</a></h2></center>
 <center><h3>Release date</h3></center>
