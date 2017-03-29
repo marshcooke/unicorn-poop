@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <head>
-<title>Title of Album</title>
+<title>Album Title</title>
 </head>
 <html>
 <body>
-<h1>Title of Album</h1>
+<div>
+<!-- insert photo of album art above title. Linke band name to their website -->
+<h1>Album Title</h1>
 <h2>Band Name</h2>
 <h3>Release date</h3>
+</div>
 <div>
-<p>A paragraph of text used as a description of the album.</p>
-<h2>Band Members</h2>
-<li>Person One - Lead Vocals
+<h2>Band Members and Producers</h2>
+<li>Member One - Instrument
 </li>
-<li>Person Two - Guitar
+<li>Person Two - Instrument
 </li>
-<li>Person Three - Acoustic Guiar, Backup Vocals
+<li>Person Three - Instrument
 </li>
-<li>Person Four - Drums
+<li>Person Four - Instrument
 </li>
-<li>Person Five Bass Backup Vocals
+<li>Producer
 </li>
+<!-- Include table here with details about tracks #, track title, track length  -->
 </div>
 </body
 </html>
