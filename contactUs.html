@@ -1,43 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <form>
-    </input>First Name:
-  
-  <input type="type of input" name="name of input">
-  
-    </input>Last Name:
-  
-    </input>Email:
-
-    </input>Type of License: 
-
-<select>Reason:
-  <option>Option
-  </option>
-  
-  <option>Select a Reason
-  </option>
-  
-  <option>Software Support
-  </option>
-  
-  <option>Hardware Support
-  </option>
-  
-  <option>Information Request
-  </option>
+  <form action="contactUs.html" method="POST">
+    First Name: <input type="text" name="FirstName" />
+    Last name: <input type="text" name="LastName" />
+    Email: <input type="text" name="Email" /> 
+    Type of License: <br/>
+    <input type="radio" name="answer" value="Business" checked/> Business
+    <input type="radio" name="answer" value="Personal" />Personal
+     <select name="phones">
+        <option value="iPhone6">iPhone 6</option>
+        <option value="GalaxyS6">Galaxy S6</option>
+        <option value="Nexus5">Nexus 5</option>
+    </select>
+<select name="Reason:">
+  <option value="SelectaReason">Select a Reason</option>
+  <option value="SoftwareSupport">Software Support</option>
+  <option value="HardwareSupport">Hardware Support</option>
+  <option value="InformationRequest">Information Request</option>
 </select>
-
-    </input>Additional Information: 
-
-<textarea>
-
-
-
-</textarea>
-
-    </input>I have read the terms of service. 
-
-    </input>Send Request 
+     <textarea name="briefDescription"></textarea><br/>
+    Additional Information<br/>
+    <textarea name="additionalInformation"></textarea>
+  <input type="checkbox" name="ReadTerms" />I have read the terms of service.<br/>
+ <input type="Send Request"/>
   </form>
 </html>
