@@ -1,21 +1,46 @@
 <!DOCTYPE html>
+
+    <tr>
+        <td>Sam</td>
+        <td>Jones</td>
+        <td>555-4321</td>
+    </tr>
+ </table>
+
+
 <html>
+  <table border="1" width=”100%”>
   <form action="contactUs.html" method="POST">
-    First Name: <input type="text" name="FirstName" />
-    Last name: <input type="text" name="LastName" />
-    Email: <input type="text" name="Email" /> 
-    Type of License: <br/>
-    <input type="radio" name="answer" value="Business" checked/> Business
-    <input type="radio" name="answer" value="Personal" />Personal
+    <tr>
+      <td>First Name:</td>
+      <td><input type="text" name="FirstName" /></td>
+    </tr>
+    <tr>
+      <td>Last name:</td> 
+      <td><input type="text" name="LastName" /></td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><input type="text" name="Email" /></td>
+    </tr>
+    <tr>
+      <td>Type of License:</td>
+    <td><input type="radio" name="answer" value="Business" checked/> Business
+      <input type="radio" name="answer" value="Personal" />Personal</td>
+    </tr>
 <select name="Reason:">
   <option value="SelectaReason">Select a Reason</option>
   <option value="SoftwareSupport">Software Support</option>
   <option value="HardwareSupport">Hardware Support</option>
-  <option value="InformationRequest">Information Request</option>
-</select>
-    Additional Information<br/>
-    <textarea name="additionalInformation"></textarea>
-  <input type="checkbox" name="ReadTerms" />I have read the terms of service.<br/>
-  <input type="submit" value="Send Request"/>
+        <option value="InformationRequest">Information Request</option>
+    </select>
+  <tr>
+    <td>Additional Information<br/></td>
+    <td><textarea name="additionalInformation"></textarea></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="ReadTerms" />I have read the terms of service.<br/></td>
+    <td><input type="submit" value="Send Request"/></td>
+  </tr>
   </form>
 </html>
