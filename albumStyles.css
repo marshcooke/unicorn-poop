@@ -1,7 +1,10 @@
 h1 {
     color: purple;
+    font-family: 'Fantasy';
 }
-
+h2 {
+    font-family: 'Fantasy';
+}
 table {
   background-color: yellow;
 }
