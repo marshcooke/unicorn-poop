@@ -5,6 +5,9 @@ h1 {
 h2 {
     font-family: 'sans-serif';
 }
+li {
+    font-style: italic;
+}
 table {
   background-color: yellow;
 }
