@@ -11,3 +11,10 @@ li {
 table {
   background-color: yellow;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  background-color: teal;
+}
