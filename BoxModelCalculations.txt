@@ -1,1 +1,37 @@
+The sample element you are working with is:
 
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+For this object, calculate:
+
+H = MT + BT + PT + HEIGHT OF CONTENT + PB + BB + MB 
+H = 20 + 1 + 10 + 150 + 10 + 1 + 20
+H = 212
+Total height = 212
+
+W = ML + BL + PL + WIDTH OF CONTENT + PR + BR + MR 
+W = 20 + 1 + 10 + 400 + 10 + 1 + 20
+W = 462
+Total width = 462
+
+H = BT + PT + HEIGHT OF CONTENT + PB + BB
+H = 1 + 10 + 150 + 10 + 1
+H = 172
+Browser calculated height = 172
+
+W = BL + PL + WIDTH OF CONTENT + PR + BR
+W = 1 + 10 + 400 + 10 + 1
+W = 422
+Browser calculated width = 422
